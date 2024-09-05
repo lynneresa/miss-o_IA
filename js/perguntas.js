@@ -33,7 +33,7 @@ export const perguntas = [
                 proxima: 3,
             },
             {
-                texto: "Ouvir o viajante desviar da areia mas pegar o caminho mais longo"
+                texto: "Ouvir o viajante desviar da areia mas pegar o caminho mais longo",
                 afirmacao: [
                     "Teve que andar cerca de um dia a mais de viagem por ter desviado o caminho",
                     "Demorou demais no percurso e acabou tendo que enfrentar uma tempestade de areia."
@@ -44,127 +44,124 @@ export const perguntas = [
         ]
     },
     {
-        enunciado: "Uma tempestade de areia se formou no caminho, os vento fortes empurravam a menina pra trás com força muitas veses a derrubando, a areia cegava seus olhos mas ao longe ela avistou uma caverna. Ela deve?",
-            {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: [
-                    "Conseguiu utilizar a IA para buscar informações úteis.",
-                    "Percebeu que a IA pode ajudar a encontrar informações úteis na internet de forma mais rápida e direcionada.",
-                    "Percebeu que a IA consegue explicar termos complicados de forma simplificada e isso ajudou muito suas pesquisas sobre assuntos complexos."
-                ],
-                proxima: 3,
-            },
-            {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: [
-                    "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho.",
-                    "Achou que era muito mais fácil procurar por respostas utilizando alguns meios mais tradicionais mesmo que levasse mais tempo.",
-                    "Sentiu um pouco de medo de quais dados pessoais seus a IA poderia utilizar e por isso prefere fazer suas coisas com pouca intromissão da tecnologia."
-                ],
-                proxima: 4,
-            },
-        ]
-    },
-    {
-        enunciado: "Ferramentas de busca que utilizam IA podem facilitar muito nosso processo de busca por informações. Agora imagine que você precisa participar de um debate sobre o quanto a IA impacta no trabalho do futuro. Qual posicionamento tomar?",
+        enunciado: "Uma tempestade de areia se formou no caminho, os vento fortes empurravam a menina pra trás com força e muitas veses a derrubando, a areia cegava seus olhos mas ao longe ela avistou uma caverna. Ela deve?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "Entrar na caverna, lá pode ser o lugar mais seguro em meio a ventos tão fortes.",
                 afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
-                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+                    "esperar que o vento fosse embora, foi uma segura descisão mas isso atrasou a viagem.",
+                    "os ventos eram fortes demais, e empurravam a menina na direção contraria a da caverna. "
+                    
                 ],
                 proxima: 5,
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Não entrar na caverna,além de conter perigos desconhecidos o vento está diminuindo e logo a tempestade deve passar",
                 afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
-                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
+                    "Os ventos passaram em alguns minutos e a perigosa caverna não foi nescessária.",
+                    "os ventos não cessaram e lutar contra as fortes rajadas de vento cansou a  garota além do limite a forçando a parar para descansar em algum lugar seguro. Isso atrasou a viagem."
+                    
+                ],
+                proxima: 6,
+            },
+        ]
+    },
+
+    {
+        enunciado: "Continuando a viagem a garota encontrou um grande vilarejo, os moradores gentis a convidaram a entrar e decansar.",
+        alternativas: [
+            {
+                texto: "ela deve aceitar, após tanto esforço um bom descanso é bem vindo",
+                afirmacao: [
+                    "Após um descanso a garota se sentiu muito mais motivada e isso adiantou a viagem.",
+                    "Um bom sono fez bem, agora com energia a viagem foi mais rápida e tranquila."
+                ],
+                proxima: 5,
+            },
+            {
+                texto: "Ela nega, então é convencida a pelo menos jantar com os moradores, depois parte em sua viagem.",
+                afirmacao: [
+                    "Alimentada a garota partiu feliz e com mais energia",
+                    "Após um belo jantar ela partiu feliz e com mais energia"
                 ],
                 proxima: 6,
             },
         ]
     },
     {
-        enunciado: "Utilizar informações próprias traz um toque pessoal ao nosso trabalho. Agora imagine que você precisa participar de um debate sobre o quanto a IA impacta no trabalho do futuro. Qual posicionamento tomar?",
+        enunciado: "A garota encontrou com um grande rio, para atravessa-lo existem duas opçoẽs:",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "Dar a volta e encontrar um pedaço mais raso para atravessar.",
                 afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
-                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+                    "Uma ideia muito segura mas que demorou demais.",
+                    "Não demorou muito para encontrar um pedaço raso e ela atravessa sem problema."
                 ],
                 proxima: 5,
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Ir nadando e passar pela parte mais funda do rio.",
                 afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
-                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
+                    "O método mais rápido,ganhou algumas horas de viagem com isso .",
+                    "Foi rápido mas agora você tem que lidar com suas roupas molhadas."
                 ],
                 proxima: 6,
             },
         ]
     },
     {
-        enunciado: "Novas tecnologias trazem novos desafios, por isso após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Do outro lado do rio a um enorme crocodilo dormindo no sol.",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "Desviar o caminho, melhor evitar conflito com a fera.",
                 afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
-                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+                   "Boa escolha, ele nem acordou."
                 ],
                 proxima: 7,
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Continuar o caminho em silêncio a fera não vai acordar.",
                 afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
-                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
+                    "Ele dorme pesado, nem mesmo se moveu."
                 ],
                 proxima: 7,
             },
         ]
     },
     {
-        enunciado: "É muito importante refletir sobre os trabalhadores do futuro. Por isso a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Em frente a pirâmide a uma enorme floresta aonde grandes jaguares, protegem o tesouro, como passar por eles?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "Esperar a noite chegar, e quando eles dormirem atravessar a selva",
                 afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
-                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+                    "Esse tipo de animal é noturno e caça durante a noite.",
+                    "Os jaguares caçam a noite isso os tirou da frente da pirâmide,pode entrar"
                 ],
                 proxima: 7,
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Atravessar durante o dia.",
                 afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
-                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
+                    "Os jaguares são noturnos e estão dormindo se o silêncio for mantido ela passa tranquilamente.",
+                    "Os jaguares não dão bola pra ela é magra demais para servir de alimento e a deixam passar."
                 ],
                 proxima: 7,
             },
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Dentro da pirâmide a esfinge te faz uma pergunta para ter certeza que voce é digno de pegar o tesouro. Resolva-o:Eu falo sem boca e ouço sem ouvidos. Não tenho corpo, mas eu sempre estou em movimento. O que sou eu?"
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
+                texto: "Um eco",
                 afirmacao: [
-                    "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes.",
-                    "Ainda acha que os meios de desenho tradicionais são mais eficazes para a criatividade, por isso vem estimulando pessoas em suas redes sociais a fazer pintura em aquarela."
-                ],
-            },
+                   "Resposta certa, a garota pegou o tesouro, o colar agora é dela e seu poder também."
+            }
+        
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
+                texto: "Um livro",
                 afirmacao: [
-                    "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!",
-                    "Compartilhou artes em redes sociais como forma de ensinar como se comunicar através da arte.",
-                    "Percebeu que muitas pessoas têm dificuldade em expressar suas ideias desenhando e acha que a IA é capaz de empoderar essas pessoas a tirarem ideias do papel."
+                   "Resposta errada, a esfinge devorou a garotinha." 
                 ],
             },
         ]
